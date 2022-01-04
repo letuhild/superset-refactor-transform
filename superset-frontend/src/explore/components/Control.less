@@ -1,0 +1,105 @@
+/**
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+.Control {
+  padding-bottom: 4px;
+}
+
+.data-table {
+  .ant-tabs-tab-btn {
+    justify-content: flex-start !important;
+    margin-left: 20px;
+  }
+
+}
+
+.tablePane {
+  .checkbox-container {
+    height: 400px !important;
+  }
+}
+
+.chart-container {
+  th {
+    text-align: center !important;
+    min-width: 167px !important;
+  }
+
+  td {
+    text-align: left !important;
+  }
+}
+
+@evenTrcolor :#D1DEEF;
+
+@tableColor: #d7d7f7;
+
+table.table-condensed {
+  thead tr th {
+    background-color: @tableColor;
+
+  }
+
+  tbody {
+    tr:nth-child(even) {
+      background-color: @evenTrcolor;
+    }
+  }
+}
+
+table.pvtTable thead tr th,
+table.pvtTable tbody tr th {
+  border-top: 1px solid #ececec !important;
+  border-left: 1px solid #ececec !important;
+}
+
+.pvtTable {
+  thead {
+    tr {
+      th:first-child {
+        background-color: @tableColor;
+      }
+    }
+  }
+
+  tbody {
+    tr:nth-child(even) {
+      .pvtVal {
+        background-color: @evenTrcolor;
+      }
+    }
+  }
+
+  .pvtAxisLabel {
+    background-color: @tableColor ;
+  }
+
+  .pvtRowLabel {
+    background-color: @tableColor ;
+  }
+
+  .pvtTotalLabel {
+    background-color: @tableColor ;
+
+  }
+
+  .pvtColLabel {
+    background-color: @tableColor ;
+
+  }
+}

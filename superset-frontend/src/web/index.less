@@ -1,0 +1,41 @@
+body {
+  overflow: hidden;
+}
+
+
+.sider-menu {
+  border-right: 2px solid #e2e2e2;
+  display: flex;
+  flex-direction: column;
+
+  .sider-menu-item {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    &>a {
+      color: rgba(0, 0, 0, 0.85);
+      text-decoration: none;
+      margin-left: 10px;
+    }
+
+  }
+
+  .active {
+    background-color: rgb(226, 226, 226);
+  }
+}
+
+.ant-tabs-nav {
+  margin: 0px !important;
+}
+
+
+.charts-container {
+  height: 100%;
+  width: 100%;
+  min-height: 500px;
+}
