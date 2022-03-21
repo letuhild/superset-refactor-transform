@@ -80,7 +80,7 @@
     "@data-ui/sparkline": "^0.0.84",
     "@emotion/babel-preset-css-prop": "^11.2.0",
     "@emotion/cache": "^11.4.0",
-    "@emotion/react": "^11.4.1",
+    "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.3.0",
     "@superset-ui/chart-controls": "^0.18.25",
     "@superset-ui/core": "^0.18.25",
